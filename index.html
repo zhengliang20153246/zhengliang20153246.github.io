@@ -22,11 +22,14 @@
 <link href="http://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700" rel="stylesheet">
 <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700italic,700,400italic,300italic,300' rel='stylesheet' type='text/css'>
 <!-- //font -->
-<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/jquery.min.js"></script>
 <script src="js/bootstrap.js"></script>
 <!-- menu -->
 <link rel="stylesheet" href="css/main.css">
+
 <script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript" src="js/pdfobject.js"></script>
+
 <!-- //menu --> 
 <script>
 $(document).ready(function() { 
@@ -42,6 +45,7 @@ $(document).ready(function() {
 	
 }); 
 </script>
+
 </head>
 <body>
 	<!-- banner -->
@@ -57,10 +61,18 @@ $(document).ready(function() {
 
 			<div id="m_nav_container" class="m_nav">
 			  <ul id="m_nav_list" class="m_nav">
-				<li class="m_nav_item" id="m_nav_item_1"> <a href="#home">个人简介</a> </li>
-				<li class="m_nav_item" id="moble_nav_item_2"> <a href="#about">项目</a> </li>
+				<li style="margin-top: 15px;display: inline;
+        line-height: 100px;
+        margin-right: 50px;"> <a href="images/introduce.pdf" style="text-decoration: none;
+    color: #333;
+    font-size: 1em;
+    -webkit-transition-duration: 0.5s;color: #ff9800;margin-top: 10px;
+        font-size: 1.2em;margin-top: 10px;
+		font-size: 1.2em;
+		font-weight: 600">个人简历</a> </li>
+				<li class="m_nav_item" id="moble_nav_item_2"> <a href="#about">项目经历</a> </li>
 				<li class="m_nav_item" id="moble_nav_item_3"> <a href="#statistics">统计数据</a> </li>
-				<li class="m_nav_item" id="moble_nav_item_4"> <a href="#experience">擅长技术</a> </li>
+				<li class="m_nav_item" id="moble_nav_item_4"> <a href="#experience">技能介绍</a> </li>
 				<li class="m_nav_item" id="moble_nav_item_5"> <a href="#projects">我的博客</a> </li>
 				<li class="m_nav_item" id="moble_nav_item_6"> <a href="#contact">联系方式</a> </li>
 			  </ul>
